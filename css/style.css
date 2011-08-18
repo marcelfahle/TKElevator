@@ -63,21 +63,161 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-   Author: 
+   Author: Marcel Fahle
    ========================================================================== */
 
+body {
+    background: #d2d3d5;
+}
+
+header {
+    height: 183px;
+    background: url('../img/header-bg.png') repeat-x;
+}
+
+#logo {
+    width: 437px;
+    height: 97px;
+    background: url('../img/logo.png') no-repeat;
+    position: absolute;
+    top: 6px;
+    right: 2px;
+}
+
+#progress {
+    padding:0;
+    margin-top: 107px;
+    margin-left: 25px;
+    float: left;
+    
+}
+#progress p {
+    margin: 0;
+}
+#progress .title {
+    font-family: "TKTypeRegular", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #1f7fb6;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+#progress-bar-wrapper {
+    width: 105px;
+    height: 39px;
+    background-color: #c6d8ea;
+}
+#progress-bar-wrapper p {
+    font-family: "TKTypeBoldRegular", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: #1f7fb6;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#progress-bar {
+    background-color: #91beda;
+    height: 14px;
+}
+
+nav {
+    padding: 0;
+    margin-top: 107px;
+    float: left;
+    margin-left: 37px;
+}
+nav div {
+    float: left;
+}
+nav p {
+    margin: 0;
+    font-family: "TKTypeBoldRegular", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+nav li {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+nav div {
+    margin-right: 20px;
+}
+nav #group1 li { background-color: #001d37; }
+nav #group2 li { background-color: #004b7c; }
+nav #group3 li { background-color: #1f7fb6; }
+nav #group4 li { background-color: #7ba9d1; }
+nav #group1 p { color: #001d37; }
+nav #group2 p { color: #004b7c; }
+nav #group3 p { color: #1f7fb6; }
+nav #group4 p { color: #7ba9d1; }
+nav li.blank {
+    width: 6px;
+    background-color: #fff !important;
+}
+
+
+nav div ul li a {
+    width: 12px;
+    height: 12px;
+    margin-top:20px;
+    position: absolute;
+    display: none;
+} 
 
 
 
 
 
+/* ==|== font declarations ======================================== */
 
 
 
+@font-face {
+    font-family: 'TKTypeBoldRegular';
+    src: url('fonts/tktypebold-webfont.eot');
+    src: url('fonts/tktypebold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/tktypebold-webfont.woff') format('woff'),
+         url('fonts/tktypebold-webfont.ttf') format('truetype'),
+         url('fonts/tktypebold-webfont.svg#TKTypeBoldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
+@font-face {
+    font-family: 'TKTypeRegularItalic';
+    src: url('fonts/tktypeitalic-webfont.eot');
+    src: url('fonts/tktypeitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/tktypeitalic-webfont.woff') format('woff'),
+         url('fonts/tktypeitalic-webfont.ttf') format('truetype'),
+         url('fonts/tktypeitalic-webfont.svg#TKTypeRegularItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
+@font-face {
+    font-family: 'TKTypeMediumRegular';
+    src: url('fonts/tktypemedium-webfont.eot');
+    src: url('fonts/tktypemedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/tktypemedium-webfont.woff') format('woff'),
+         url('fonts/tktypemedium-webfont.ttf') format('truetype'),
+         url('fonts/tktypemedium-webfont.svg#TKTypeMediumRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TKTypeRegular';
+    src: url('fonts/tktyperegular-webfont.eot');
+    src: url('fonts/tktyperegular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/tktyperegular-webfont.woff') format('woff'),
+         url('fonts/tktyperegular-webfont.ttf') format('truetype'),
+         url('fonts/tktyperegular-webfont.svg#TKTypeRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 
